@@ -7,8 +7,9 @@ RTP center MolSSI bootcamp
 
 #import statements go here
 
+
 def mean(num_1st):
-	""" 
+    """ 
 	Calculates the mean of a list of numbers
 	
 	Parameters
@@ -27,10 +28,8 @@ def mean(num_1st):
 	>>> mean([1,2,3,4,5])
 	3.0
 	"""
-	Sum  = sum(num_1st)
-	N = len(num_1st)
-	avgMean = float(Sum/N)
+    Sum = sum(num_1st)
+    N = len(num_1st)
+    avgMean = float(Sum / N)
 
-	return avgMean 
-	
-
+    return avgMean
