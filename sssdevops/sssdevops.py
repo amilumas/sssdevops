@@ -30,6 +30,6 @@ def mean(num_1st):
 	"""
     Sum = sum(num_1st)
     N = len(num_1st)
-    avgMean = float(Sum / N)
+    avgMean = float(Sum/N)
 
     return avgMean
