@@ -2,7 +2,7 @@
 This file is to test the mean function
 """
 from sssdevops import mean
-from listtools import split
+from sssdevops import split
 import pytest
 
 def test_simple():
@@ -38,6 +38,7 @@ def test_split_simple():
 	alpha_list = ["a","b","c"]
 	index = 1
 	observed = split(alpha_list,index)
-	expected = (["a","b"],["c"])
+	expected = (["a"],["b","c"])
+	assert observed == expected
 
 
