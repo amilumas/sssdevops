@@ -1,1 +1,9 @@
-[]
+[
+  "sssdevops/tests/test_mean.py::test_simple",
+  "sssdevops/tests/test_mean.py::test_more",
+  "sssdevops/tests/test_mean.py::test_empty",
+  "sssdevops/tests/test_mean.py::test_type_error",
+  "sssdevops/tests/test_mean.py::test_many[num_list0-3.0]",
+  "sssdevops/tests/test_mean.py::test_many[num_list1-1.5]",
+  "sssdevops/tests/test_mean.py::test_many[num_list2-5]"
+]
