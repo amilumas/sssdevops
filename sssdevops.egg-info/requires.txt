@@ -1,5 +1,9 @@
 jsonschema
 
+[develop]
+yapf
+versioneer
+
 [docs]
 sphinx==1.2.3
 sphinxcontrib-napoleon
@@ -9,3 +13,4 @@ numpydoc
 [tests]
 pytest>=3.0
 pytest-cov
+codecov

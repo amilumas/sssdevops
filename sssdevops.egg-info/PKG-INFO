@@ -7,5 +7,6 @@ Author: Amulya K. Pervaje
 License: BSD 3-C
 Description: UNKNOWN
 Platform: UNKNOWN
-Provides-Extra: tests
+Provides-Extra: develop
 Provides-Extra: docs
+Provides-Extra: tests

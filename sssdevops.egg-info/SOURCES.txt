@@ -12,4 +12,5 @@ sssdevops.egg-info/dependency_links.txt
 sssdevops.egg-info/requires.txt
 sssdevops.egg-info/top_level.txt
 sssdevops.egg-info/zip-safe
-test/__init__.py
+sssdevops/tests/__init__.py
+sssdevops/tests/test_mean.py
