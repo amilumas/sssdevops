@@ -25,5 +25,5 @@ def split(in_list,index):
 	list1 = in_list[:index]
 	list2 = in_list[index:]
 
-	return list1, list2
+	return in_list[:index], in_list[index:]
 
