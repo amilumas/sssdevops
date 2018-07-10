@@ -2,6 +2,7 @@
 This file is to test the mean function
 """
 from sssdevops import mean
+from listtools import split
 import pytest
 
 def test_simple():
@@ -33,6 +34,10 @@ def test_type_error():
 ])
 def test_many(num_list, expected_mean):
 	assert mean(num_list) == expected_mean
-
+def test_split_simple():
+	alpha_list = ["a","b","c"]
+	index = 1
+	observed = split(alpha_list,index)
+	expected = (["a","b"],["c"])
 
 
