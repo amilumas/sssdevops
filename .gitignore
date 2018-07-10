@@ -107,4 +107,11 @@ venv.bak/
 
 .coverage
 
+# ignore devopscc
 /devopscc
+
+# ignore friend
+/friend
+
+# ignore fork_clone
+/fork_clone
