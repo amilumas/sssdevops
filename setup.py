@@ -24,6 +24,10 @@ if __name__ == "__main__":
                 'pytest>=3.0',
 		'pytest-cov'
             ],
+	    'develop': [ #extra
+		'yapf', 
+		'versioneer'
+	    ]
         },
 
         tests_require=[
