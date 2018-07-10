@@ -32,7 +32,6 @@ def test_type_error():
 	([1,2], 1.5),
 	([5], 5),
 ])
-@pytest.mark.skip("Trying to skip this now")
 def test_many(num_list, expected_mean):
 	assert mean(num_list) == expected_mean
 def test_split_simple():
@@ -42,12 +41,5 @@ def test_split_simple():
 	expected = (["a"],["b","c"])
 	assert observed == expected
 
-@pytest.mark.parametrize("list_tosplit, index_to_start_new_list, (exp_list1, exp_list2)", [
-	([1, 2, 3, 4], 1, ([1],[2, 3, 4])),
-	(["1","2","3","4"], 2, (["1","2"],["3","4"])),
-	(["a","b","c","d","e"],4, (["a","b","c","d"], ["e"])),
-])
-def splittest_many(list_tosplit, index, expectedsplit):
-	assert split(list_tosplit,index) == expectedsplit
 
 
