@@ -41,5 +41,10 @@ def test_split_simple():
 	expected = (["a"],["b","c"])
 	assert observed == expected
 
+def test_split_type_error():
+	with pytest.raises(TypeError):
+		split(1,1)
+
+
 
 
