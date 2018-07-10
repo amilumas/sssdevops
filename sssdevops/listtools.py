@@ -22,8 +22,6 @@ def split(in_list,index):
 	(['a', 'b', 'c'], ['d'])
 	"""
 	
-	list1 = in_list[:index]
-	list2 = in_list[index:]
 
 	return in_list[:index], in_list[index:]
 
