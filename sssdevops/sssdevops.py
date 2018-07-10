@@ -16,7 +16,6 @@ def mean(num_1st):
 	----------
 	num_1st : list
 	List of numbers to calculate the averge of
-
 	Returns
 	--------
 	The average/mean of num_1st
@@ -33,3 +32,4 @@ def mean(num_1st):
     avgMean = float(Sum/N)
 
     return avgMean
+

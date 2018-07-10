@@ -7,4 +7,5 @@ sphinx_rtd_theme
 numpydoc
 
 [tests]
-pytest
+pytest>=3.0
+pytest-cov
