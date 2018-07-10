@@ -1,11 +1,11 @@
-Metadata-Version: 1.0
+Metadata-Version: 2.1
 Name: sssdevops
-Version: 1
+Version: 2.0
 Summary: Example project for the SSS Devops course
 Home-page: https://github.com/amilumas/sssdevops.git
 Author: Amulya K. Pervaje
-Author-email: UNKNOWN
 License: BSD 3-C
-Description-Content-Type: UNKNOWN
 Description: UNKNOWN
 Platform: UNKNOWN
+Provides-Extra: tests
+Provides-Extra: docs

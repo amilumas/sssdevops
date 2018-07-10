@@ -4,7 +4,7 @@ import versioneer
 if __name__ == "__main__":
     setuptools.setup(
         name='sssdevops',
-        version==versioneer.get_version(),
+        version='2.0',
         description='Example project for the SSS Devops course',
         author='Amulya K. Pervaje',
         url="https://github.com/amilumas/sssdevops.git",
@@ -21,7 +21,8 @@ if __name__ == "__main__":
                 'numpydoc',
             ],
             'tests': [
-                'pytest',
+                'pytest>=3.0',
+		'pytest-cov'
             ],
         },
 
