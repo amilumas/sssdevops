@@ -1,6 +1,0 @@
-{
-  "sssdevops/tests/test_mean.py::test_many": true,
-  "sssdevops/tests/test_meansplit.py": true,
-  "test/test_mean.py": true,
-  "tests/test_mean.py": true
-}
